@@ -1,0 +1,368 @@
+{
+ "_doc": "견본 판 비교용 후보 짝. 최종 짝은 roles.json (serif_gowun 줄은 견본 판 serif.png 에만 남음 — Gowun Batang Bold 는 비교 뒤 fonts/ 에서 뺐다)",
+ "fonts": {
+  "inter": {
+   "path": "fonts/Inter-var.ttf",
+   "wght_range": [
+    100,
+    900
+   ],
+   "license": "OFL"
+  },
+  "archivo": {
+   "path": "fonts/Archivo[wdth,wght].ttf",
+   "wght_range": [
+    100,
+    900
+   ]
+  },
+  "unbounded": {
+   "path": "fonts/Unbounded[wght].ttf",
+   "wght_range": [
+    200,
+    900
+   ]
+  },
+  "bigshoulders": {
+   "path": "fonts/BigShoulders[opsz,wght].ttf",
+   "wght_range": [
+    100,
+    900
+   ]
+  },
+  "spacegrotesk": {
+   "path": "fonts/SpaceGrotesk[wght].ttf",
+   "wght_range": [
+    300,
+    700
+   ]
+  },
+  "instrument": {
+   "path": "fonts/InstrumentSerif-Regular.ttf"
+  },
+  "instrument_i": {
+   "path": "fonts/InstrumentSerif-Italic.ttf",
+   "style": "italic"
+  },
+  "pretendard": {
+   "path": "fonts/PretendardVariable.ttf",
+   "wght_range": [
+    45,
+    930
+   ]
+  },
+  "notosanskr": {
+   "path": "fonts/NotoSansKR[wght].ttf",
+   "wght_range": [
+    100,
+    900
+   ]
+  },
+  "blackhansans": {
+   "path": "fonts/BlackHanSans-Regular.ttf"
+  },
+  "dohyeon": {
+   "path": "fonts/DoHyeon-Regular.ttf"
+  },
+  "hahmlet": {
+   "path": "fonts/Hahmlet[wght].ttf",
+   "wght_range": [
+    100,
+    900
+   ]
+  },
+  "notoserifkr": {
+   "path": "fonts/NotoSerifKR[wght].ttf",
+   "wght_range": [
+    200,
+    900
+   ]
+  }
+ },
+ "roles": {
+  "body_pret": {
+   "latin": {
+    "font": "inter",
+    "wght": 400
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 400
+   },
+   "mode": "x",
+   "tracking_pct": {
+    "latin": 0,
+    "ko": -0.5
+   },
+   "line_gap": 0.62
+  },
+  "body_noto": {
+   "latin": {
+    "font": "inter",
+    "wght": 400
+   },
+   "ko": {
+    "font": "notosanskr",
+    "wght": 400
+   },
+   "mode": "x",
+   "tracking_pct": {
+    "latin": 0,
+    "ko": -0.5
+   },
+   "line_gap": 0.62
+  },
+  "title_inter_pret": {
+   "latin": {
+    "font": "inter",
+    "wght": 700
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 700
+   },
+   "tracking_pct": {
+    "latin": -2.5,
+    "ko": -2.5
+   },
+   "line_gap": 0.3
+  },
+  "title_archivo_pret": {
+   "latin": {
+    "font": "archivo",
+    "wght": 700
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 700
+   },
+   "tracking_pct": {
+    "latin": -2,
+    "ko": -2.5
+   },
+   "line_gap": 0.3
+  },
+  "title_inter_noto": {
+   "latin": {
+    "font": "inter",
+    "wght": 700
+   },
+   "ko": {
+    "font": "notosanskr",
+    "wght": 700
+   },
+   "tracking_pct": {
+    "latin": -2.5,
+    "ko": -2.5
+   },
+   "line_gap": 0.3
+  },
+  "kin_archivo_pret": {
+   "latin": {
+    "font": "archivo",
+    "wght": 850,
+    "axes": {
+     "wdth": 100
+    }
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 850
+   },
+   "tracking_pct": {
+    "latin": -3,
+    "ko": -4
+   },
+   "line_gap": 0.12,
+   "display_ratio": 1.15
+  },
+  "kin_unbounded_pret": {
+   "latin": {
+    "font": "unbounded",
+    "wght": 800
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 900
+   },
+   "tracking_pct": {
+    "latin": -2,
+    "ko": -3
+   },
+   "line_gap": 0.12,
+   "display_ratio": 1.15
+  },
+  "kin_bigsh_bhs": {
+   "latin": {
+    "font": "bigshoulders",
+    "wght": 800,
+    "axes": {
+     "opsz": 72
+    }
+   },
+   "ko": {
+    "font": "blackhansans"
+   },
+   "tracking_pct": {
+    "latin": 0,
+    "ko": -2
+   },
+   "line_gap": 0.12,
+   "display_ratio": 1.15
+  },
+  "kin_archivo_bhs": {
+   "latin": {
+    "font": "archivo",
+    "wght": 900,
+    "axes": {
+     "wdth": 80
+    }
+   },
+   "ko": {
+    "font": "blackhansans"
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -2
+   },
+   "line_gap": 0.12,
+   "display_ratio": 1.15
+  },
+  "kin_bigsh_dohyeon_OLD": {
+   "latin": {
+    "font": "bigshoulders",
+    "wght": 800,
+    "axes": {
+     "opsz": 72
+    }
+   },
+   "ko": {
+    "font": "dohyeon"
+   },
+   "tracking_pct": {
+    "latin": 0,
+    "ko": 0
+   },
+   "line_gap": 0.12,
+   "display_ratio": 1.15
+  },
+  "serif_hahmlet": {
+   "latin": {
+    "font": "instrument"
+   },
+   "ko": {
+    "font": "hahmlet",
+    "wght": 500
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -3
+   },
+   "line_gap": 0.25
+  },
+  "serif_notoserif": {
+   "latin": {
+    "font": "instrument"
+   },
+   "ko": {
+    "font": "notoserifkr",
+    "wght": 500
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -3
+   },
+   "line_gap": 0.25
+  },
+  "num_inter": {
+   "latin": {
+    "font": "inter",
+    "wght": 600
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 600
+   },
+   "digit": {
+    "font": "inter",
+    "wght": 600,
+    "features": [
+     "tnum"
+    ]
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -1.5,
+    "digit": -1
+   },
+   "line_gap": 0.3
+  },
+  "num_spacegrotesk": {
+   "latin": {
+    "font": "spacegrotesk",
+    "wght": 500
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 500
+   },
+   "digit": {
+    "font": "spacegrotesk",
+    "wght": 500,
+    "features": [
+     "tnum"
+    ]
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -1.5,
+    "digit": -1
+   },
+   "line_gap": 0.3
+  },
+  "num_bigsh": {
+   "latin": {
+    "font": "bigshoulders",
+    "wght": 800,
+    "axes": {
+     "opsz": 72
+    }
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 800
+   },
+   "digit": {
+    "font": "bigshoulders",
+    "wght": 800,
+    "axes": {
+     "opsz": 72
+    }
+   },
+   "tracking_pct": {
+    "latin": 0,
+    "ko": -2.5,
+    "digit": -1
+   },
+   "line_gap": 0.2
+  },
+  "kin_archivo_pret_r1228": {
+   "latin": {
+    "font": "archivo",
+    "wght": 850,
+    "axes": {
+     "wdth": 100
+    }
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 850
+   },
+   "tracking_pct": {
+    "latin": -3,
+    "ko": -4
+   },
+   "line_gap": 0.12
+  }
+ }
+}

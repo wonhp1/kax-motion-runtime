@@ -1,0 +1,550 @@
+{
+  "version": "0.6.7",
+  "files": [
+    {
+      "path": "kax-motion/LICENSE.md",
+      "bytes": 1355,
+      "sha256": "37584fd18213889015b2296f1b53f441a7c8cc7c7feadb64373d2f4a2ef12751"
+    },
+    {
+      "path": "kax-motion/NOTICE.md",
+      "bytes": 4229,
+      "sha256": "c7e1adc77969afa31792a7cd767fba27b7d687f6e3c4b3ae6f37afbec4a459a1"
+    },
+    {
+      "path": "kax-motion/README.md",
+      "bytes": 2643,
+      "sha256": "8c8cf929cbe8acb35438a1c19e6c6c40e220e221499c91df242699b2b09a10c7"
+    },
+    {
+      "path": "kax-motion/SKILL.md",
+      "bytes": 24771,
+      "sha256": "e58fc0eeed316e33240d8037b5ce0a61601666b21eb3ab1c30bb2e98cc608b8b"
+    },
+    {
+      "path": "kax-motion/VERSION",
+      "bytes": 6,
+      "sha256": "a44c09a63563688578d3d87354e992d7ce974922707d70d563fbf884ac571c5f"
+    },
+    {
+      "path": "kax-motion/components/README.md",
+      "bytes": 11431,
+      "sha256": "8d31102439d6383a4044a68be206221c4355e65105f60c59237f8d18ebfe19df"
+    },
+    {
+      "path": "kax-motion/components/kc.js",
+      "bytes": 55247,
+      "sha256": "1ac037bb1226a262a6b11f22aea6a33e8b54ad281226a429ed5bf0ef7bc04408"
+    },
+    {
+      "path": "kax-motion/components/lib/b10_glass.js",
+      "bytes": 25464,
+      "sha256": "be02a00a3df4bbf16bf3f053426962a4b2e395d93fd5490b5cbe8d359fdff864"
+    },
+    {
+      "path": "kax-motion/components/lib/b11_metal.js",
+      "bytes": 4649,
+      "sha256": "76c6bc70b4b01189db270e376d886ada33fe6372494898007d3c5daf2f3b5374"
+    },
+    {
+      "path": "kax-motion/components/lib/b13_three.js",
+      "bytes": 9085,
+      "sha256": "b5afe40296b3a03d2645023b0ffc78b6a2dbf8be9e5d938ee7149604ad114e2b"
+    },
+    {
+      "path": "kax-motion/components/lib/b15_fx.js",
+      "bytes": 5874,
+      "sha256": "726c1118a45e72692ec16963b9022687448f8e7099a2ef81d1ceeb39c29c1658"
+    },
+    {
+      "path": "kax-motion/components/lib/b16_kit.js",
+      "bytes": 11085,
+      "sha256": "e3a6242424fc3768eff88668bc11d6c103af726bc2bd9213fce6ad69691088c6"
+    },
+    {
+      "path": "kax-motion/components/lib/b17_morph.js",
+      "bytes": 7083,
+      "sha256": "6e2515226762056e54ad29e7f0697b27758433b7f2bdbf2cb943674b6579147f"
+    },
+    {
+      "path": "kax-motion/components/lib/b1_shape.js",
+      "bytes": 9210,
+      "sha256": "78e8b54cd3cdc1b5f67d3c11d6eebb3426710a5f9829a61e93920ab82f904971"
+    },
+    {
+      "path": "kax-motion/components/lib/b2_words.js",
+      "bytes": 8301,
+      "sha256": "7003497af2a96002c8bc5ed3d21b29039e81ee1ad0c5468af885b327d938eca5"
+    },
+    {
+      "path": "kax-motion/components/lib/b3_demo.js",
+      "bytes": 2985,
+      "sha256": "a2c721bf6c0877f0d7b024a65fc12643eef8c65fe8e569303104f52f235b8854"
+    },
+    {
+      "path": "kax-motion/components/lib/b3_layers.js",
+      "bytes": 8626,
+      "sha256": "a1da0896edae1f8b8598367c41e3c2f3243a13802fca5482994ac54834b4b5ad"
+    },
+    {
+      "path": "kax-motion/components/lib/b4_ui.js",
+      "bytes": 5222,
+      "sha256": "186ac3ef89f6d40a18d40f9260a840da86c47b9d63a119f9fae31fc21c25e9b9"
+    },
+    {
+      "path": "kax-motion/components/lib/b5_ui.js",
+      "bytes": 8528,
+      "sha256": "47357b16e62ad637aa28ba92c2a52c01ecb3901d18f7e9e0b384e3669e87906a"
+    },
+    {
+      "path": "kax-motion/components/lib/b6_card.js",
+      "bytes": 9653,
+      "sha256": "1c5b7ec5ef891a69cb280729bfd6eb61bec36824e4f379c6915fa800fa3c4e69"
+    },
+    {
+      "path": "kax-motion/components/lib/b7_cards.js",
+      "bytes": 11897,
+      "sha256": "6893413a3189f1bde7a5e971ba98d7b61e41fd068fdb6fe5ee99ec5b02f27f6e"
+    },
+    {
+      "path": "kax-motion/components/lib/b8_glass2d.js",
+      "bytes": 12869,
+      "sha256": "e4ff4063df4913bd2594bc04b798071366cd97696d674cd3c5e00e0f146db3f0"
+    },
+    {
+      "path": "kax-motion/components/lib/b9_three.js",
+      "bytes": 6197,
+      "sha256": "7a6e6d564ad1a65823b6be45638a0727d85b8c7101132509ec38845413fdb6fb"
+    },
+    {
+      "path": "kax-motion/components/tools/stage.py",
+      "bytes": 14798,
+      "sha256": "849406117671fb78d915a2a60bfc2b7d0525b38469807c2842f52276ee4c6705"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/LICENSE",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/README.md",
+      "bytes": 1403,
+      "sha256": "26f22d207b17c2b6c563be8d4947ca1e43bd05457f62501465fc5ac380d32e01"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/build/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/build/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/examples/jsm/environments/RoomEnvironment.js",
+      "bytes": 4960,
+      "sha256": "55f466192cc84298755a424c5e040345006b2ee1455589b3b54126c2ea4123f4"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/examples/jsm/geometries/RoundedBoxGeometry.js",
+      "bytes": 6470,
+      "sha256": "c5feab96123858ed8823c889b238dc8734adab7e760e3cfd21e7f3f2f3e348e3"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/examples/jsm/utils/BufferGeometryUtils.js",
+      "bytes": 37712,
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+    },
+    {
+      "path": "kax-motion/components/vendor/three-r186/package.json",
+      "bytes": 3672,
+      "sha256": "f9c474a27c920b9435353a6235968f4453436bee0444fac7e5fd289c8fa463de"
+    },
+    {
+      "path": "kax-motion/critic/critic.md",
+      "bytes": 20696,
+      "sha256": "3909a0c820c51b71c258929142582d7e2fcc137d0a977286b08827c32e0b7d80"
+    },
+    {
+      "path": "kax-motion/critic/tools/README.md",
+      "bytes": 37497,
+      "sha256": "ff551d121cb6ef8c47b0cf3ae09c1c1d0dbf6def98c7c1c3d1ebd84dd4ad31db"
+    },
+    {
+      "path": "kax-motion/critic/tools/exemplar_board.py",
+      "bytes": 7763,
+      "sha256": "8ba87e8647169040ff7e5026b617dc678970ab6e4384a25d7e4c7a8f053011df"
+    },
+    {
+      "path": "kax-motion/critic/tools/fix_gate.py",
+      "bytes": 25393,
+      "sha256": "659465131de882a626f1b2a472cacf71d398756cfcfd29a93cb308838f9bc19b"
+    },
+    {
+      "path": "kax-motion/critic/tools/measure_motion.py",
+      "bytes": 85984,
+      "sha256": "53a76f7a16255710f3f6c83f882167fa22000f18b865c3e9d2efbd2b38e8d965"
+    },
+    {
+      "path": "kax-motion/critic/tools/pair_board.py",
+      "bytes": 18245,
+      "sha256": "2d37f43317f6ca0cf27098d4ef0deb9e260dbcb1bc39b5d67fcfc9f6fa1f0977"
+    },
+    {
+      "path": "kax-motion/critic/tools/panel.py",
+      "bytes": 33168,
+      "sha256": "525ba8d599fa1865306ee61963d4f8184c07367ebc15894d45046637561eb9bf"
+    },
+    {
+      "path": "kax-motion/engine/km/README.md",
+      "bytes": 18768,
+      "sha256": "830cc2769d6e5fdafefcd9501472a3c9ace7495301697ab67ea6d87e05ee6852"
+    },
+    {
+      "path": "kax-motion/engine/km/cards.js",
+      "bytes": 29535,
+      "sha256": "f80e7e9a9261b58a92a7b7fd664fc88c99fda616ada6fb473016b3e34cc15096"
+    },
+    {
+      "path": "kax-motion/engine/km/core.js",
+      "bytes": 5368,
+      "sha256": "35bf44dccca32be22bef55b1ccdb5495a1de09c92297a5e839119a0a263966e2"
+    },
+    {
+      "path": "kax-motion/engine/km/curves.js",
+      "bytes": 4551,
+      "sha256": "5f3a146ace79303d00bafe75c8e74c6548034649f29819988723d8f54cf76de3"
+    },
+    {
+      "path": "kax-motion/engine/km/endcard.js",
+      "bytes": 13014,
+      "sha256": "314a73c338928446b3ddb5b7848dcf0f2e05f443b5b7174986fd797bd1491621"
+    },
+    {
+      "path": "kax-motion/engine/km/fonts/Familjen-var.ttf",
+      "bytes": 90048,
+      "sha256": "2d25fc41321a04561fab20a90fc8bc9ed4d1c0743fe8ba76cc51cd3632138b80"
+    },
+    {
+      "path": "kax-motion/engine/km/fonts/Geist-var.ttf",
+      "bytes": 169056,
+      "sha256": "73894e0448cae90a92b6c2f8732b7bb9acb7b94c418bff559dad4a18e1de9659"
+    },
+    {
+      "path": "kax-motion/engine/km/fonts/Inter-var.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "kax-motion/engine/km/fonts/Manrope-var.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "kax-motion/engine/km/fonts/OFL.txt",
+      "bytes": 4859,
+      "sha256": "9115a596dc3f9fc448ae4565c7a6b4f21aea63624bf3979c17c8b63b95b9e20f"
+    },
+    {
+      "path": "kax-motion/engine/km/fonts/Schibsted-var.ttf",
+      "bytes": 176068,
+      "sha256": "6ceeadf6be8e1fd7687011c7fa38ed0edd1abe967a0b73d97caec183552e823d"
+    },
+    {
+      "path": "kax-motion/engine/km/text.js",
+      "bytes": 6514,
+      "sha256": "e0da4848ad4daa7eb03e3111c32506e84899e409e95ffdb263c8dc1a1b27937b"
+    },
+    {
+      "path": "kax-motion/engine/km/ui.js",
+      "bytes": 22437,
+      "sha256": "a66c273e3d269bbdc169369e9f1615b8dd9a75e1f45e86bc7c6cb0d29863cca1"
+    },
+    {
+      "path": "kax-motion/engine/kx/README.md",
+      "bytes": 16550,
+      "sha256": "5f84ccdad094a11d923f3cf2d9795403b8b41b74611ca213aee14f3254a48fe2"
+    },
+    {
+      "path": "kax-motion/engine/kx/core.js",
+      "bytes": 26000,
+      "sha256": "161b2dd88f6b041d488f2ab66ffe0a7dd304f0261766e98a09eda871de3bbfcd"
+    },
+    {
+      "path": "kax-motion/engine/kx/glyphs.py",
+      "bytes": 3748,
+      "sha256": "7e07d766b3e0c7be75f571b3b62ab3e98fc1128d2fad556dd318c149825963e3"
+    },
+    {
+      "path": "kax-motion/engine/kx/grid.js",
+      "bytes": 1153,
+      "sha256": "6317a4fce8b5fe9e3dd0a75b736903baa8c6de59731c263fb85031d6f784f514"
+    },
+    {
+      "path": "kax-motion/engine/kx/presets.js",
+      "bytes": 32972,
+      "sha256": "159c20cf41405d66379484b59f8d9e40931d39617b75c63efdcf4a28ba22073c"
+    },
+    {
+      "path": "kax-motion/fonts/Archivo[wdth,wght].ttf",
+      "bytes": 658596,
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053"
+    },
+    {
+      "path": "kax-motion/fonts/BigShoulders[opsz,wght].ttf",
+      "bytes": 320800,
+      "sha256": "4b4b24aa6f799aa73cdcd5b6fa840cbcbbb38b81fa9fa82c25126a4530c1ba44"
+    },
+    {
+      "path": "kax-motion/fonts/BlackHanSans-Regular.ttf",
+      "bytes": 998424,
+      "sha256": "31960809284026681774a8e52dc19ebcad26cf69b0ad9d560f288296fbb52739"
+    },
+    {
+      "path": "kax-motion/fonts/DoHyeon-Regular.ttf",
+      "bytes": 879764,
+      "sha256": "35644be7f28e0a68a447b1f7af351dcde5674b870f24f7b5f43e26d00b4ab653"
+    },
+    {
+      "path": "kax-motion/fonts/GasoekOne-Regular.ttf",
+      "bytes": 1061372,
+      "sha256": "73a6b8e0d12a56f0a070f19b44a93ae050f98eb926da5d2a7c8d6db92bd8d9c3"
+    },
+    {
+      "path": "kax-motion/fonts/Hahmlet[wght].ttf",
+      "bytes": 3559144,
+      "sha256": "892bffe530255770a7435226154a02f519055ff6bedf64254f37f21d15a59279"
+    },
+    {
+      "path": "kax-motion/fonts/InstrumentSerif-Italic.ttf",
+      "bytes": 71592,
+      "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385"
+    },
+    {
+      "path": "kax-motion/fonts/InstrumentSerif-Regular.ttf",
+      "bytes": 70012,
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+    },
+    {
+      "path": "kax-motion/fonts/Inter-var.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "kax-motion/fonts/NotoSansKR[wght].ttf",
+      "bytes": 10414588,
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+    },
+    {
+      "path": "kax-motion/fonts/NotoSerifKR[wght].ttf",
+      "bytes": 23795420,
+      "sha256": "11f8d5de6f1b79195efba3828aaa2ec95c1178f5ae976fb23c8d53250a9938f3"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_archivo.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_bigshoulders.txt",
+      "bytes": 4397,
+      "sha256": "fbc746aabf0eb1847dfd92e2efc4596d79fa897d60b8e64062a22f585508fb3f"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_blackhansans.txt",
+      "bytes": 4399,
+      "sha256": "c324192c8b3a988bae45a9a7e4ac1258b684739003bda114e0523423440457c9"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_dohyeon.txt",
+      "bytes": 4347,
+      "sha256": "de5ff32211a4340b01477af39ee339d639438955e409f79b666d4b9207f3c92c"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_gasoekone.txt",
+      "bytes": 4480,
+      "sha256": "a13e353470a9abc44e015067bc353fd3ebc3ea010dea68a00d56f961ebe8f7a9"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_hahmlet.txt",
+      "bytes": 4477,
+      "sha256": "ddadb10d28a303e3ef3b1f7ec55d3027903b9ec566d2f87d3ee03f3c87c91711"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_instrumentserif.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_inter.txt",
+      "bytes": 4380,
+      "sha256": "e289a9e70ba934875964c2aaadf711e204a23d3ac9fa70baaafbcd68d29084f3"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_notosanskr.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_notoserifkr.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_pretendard.txt",
+      "bytes": 4816,
+      "sha256": "82e9c8a4b203261f10ddba1296422d64914ff3d4b7bd8a12896d03f0f088d70a"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_spacegrotesk.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "path": "kax-motion/fonts/OFL_unbounded.txt",
+      "bytes": 4392,
+      "sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3"
+    },
+    {
+      "path": "kax-motion/fonts/PretendardVariable.ttf",
+      "bytes": 6739336,
+      "sha256": "3090ccde0442bb347aa7685d9ba8b17436a60682df6e8f92a9a670de14056e22"
+    },
+    {
+      "path": "kax-motion/fonts/SOURCES.md",
+      "bytes": 4157,
+      "sha256": "fecc7f38903527a326e1f90d39bfd90831c0a10d5d48ba2374467fdeeaa01e2d"
+    },
+    {
+      "path": "kax-motion/fonts/SpaceGrotesk[wght].ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+    },
+    {
+      "path": "kax-motion/fonts/Unbounded[wght].ttf",
+      "bytes": 778272,
+      "sha256": "323b511be380c8d474ef030686b71aedde501f8d9cd46da558b7c40454372c3f"
+    },
+    {
+      "path": "kax-motion/kax_paths.json",
+      "bytes": 660,
+      "sha256": "32e5f99a8c5ca36f08baf2bbb80512a9960de5de257ee868d6fd5c3c191b4499"
+    },
+    {
+      "path": "kax-motion/references/render.md",
+      "bytes": 11493,
+      "sha256": "e97ec433f44adbe68ca6e123a73499832af926ef70800a43b56025b5a52f6e78"
+    },
+    {
+      "path": "kax-motion/references/rules.md",
+      "bytes": 37598,
+      "sha256": "a765286c9a1f5bd7e6656db823f63417e641f5a06505740b1c7d05f4738686eb"
+    },
+    {
+      "path": "kax-motion/references/sound.md",
+      "bytes": 14294,
+      "sha256": "a95fbfca0b233c2d3fee938146ff0d7c9dc290286a22d96baff54f5b403c2d29"
+    },
+    {
+      "path": "kax-motion/references/texture.md",
+      "bytes": 13379,
+      "sha256": "8da5bc05c60a610e6b9fdbe056e01d1a30b6e4e1a8988e7532b6a62854bdc639"
+    },
+    {
+      "path": "kax-motion/references/typography.md",
+      "bytes": 12460,
+      "sha256": "d2fe841bf03ea4382b3b24c9dee644e2f1cdb2644083d8be1cc1e44662928af9"
+    },
+    {
+      "path": "kax-motion/scripts/events_dump.py",
+      "bytes": 19056,
+      "sha256": "8c5f97b7504b0606e8ac778f7f47b54db15b301e5a46de796b7caa56e7a745e5"
+    },
+    {
+      "path": "kax-motion/scripts/master.py",
+      "bytes": 21018,
+      "sha256": "d568f20bcbfb89712ebdda6198f50399ad0a72d8fefee17a51921742d3e6563c"
+    },
+    {
+      "path": "kax-motion/scripts/mcp_files.py",
+      "bytes": 13834,
+      "sha256": "be54773b8f1a4c8a8105565d663ca621d3a51d4f2b6d6788f1fa62310b39968e"
+    },
+    {
+      "path": "kax-motion/scripts/receipt.py",
+      "bytes": 8386,
+      "sha256": "c81f940c9a1f5d3a11a3d808a675458af8e86548dced583c4e67c0476bc3ac8c"
+    },
+    {
+      "path": "kax-motion/texture/calibration.json",
+      "bytes": 2276,
+      "sha256": "848ed06cded2aa0c0b02155cef66550d4b15cbedc3e5a86b3c33b702520fc84d"
+    },
+    {
+      "path": "kax-motion/texture/measure_texture.py",
+      "bytes": 20426,
+      "sha256": "3d473ca1fad3f4232e6d35cdbb0cdc9dbed93f1e3199e84950dd58ad87b6c815"
+    },
+    {
+      "path": "kax-motion/texture/ranges.json",
+      "bytes": 22074,
+      "sha256": "f0043bc1615fca0b43e45ec6b0ea74ed3e28cac6a2d779428842b91acc03bf74"
+    },
+    {
+      "path": "kax-motion/texture/texture.js",
+      "bytes": 18291,
+      "sha256": "5c7b60e23e190b2e86d571504e0deb9dd4bb250bc0eaadf71659b809302f92a2"
+    },
+    {
+      "path": "kax-motion/typography/README.md",
+      "bytes": 12407,
+      "sha256": "d66e324468a907e2d84d8b1a99f5363438290f0067bba8f583902d5cc67fd1e3"
+    },
+    {
+      "path": "kax-motion/typography/mixed_text.js",
+      "bytes": 20949,
+      "sha256": "820162fb4117eeb55df1565313152c0411e36e9f5d2fd92a86f8bc44aff1358d"
+    },
+    {
+      "path": "kax-motion/typography/pairs.js",
+      "bytes": 8452,
+      "sha256": "183c1c87122a3af91da47f0a55ea5545582c5eb884222998ffd5aa79744c7fe5"
+    },
+    {
+      "path": "kax-motion/typography/pairs.json",
+      "bytes": 10979,
+      "sha256": "7dfb23ae1d2c2afe2819697171781802f12321186015fe95b621ccb640121ff5"
+    },
+    {
+      "path": "kax-motion/typography/tools/fonts_to_measure.json",
+      "bytes": 1187,
+      "sha256": "b79522ef948fab3e628a800e59dbdd189de7e7ffa59b408d0d2d35eabf03cfd2"
+    },
+    {
+      "path": "kax-motion/typography/tools/measure.py",
+      "bytes": 9380,
+      "sha256": "d374c43964df74720ea1149096cc037279fe4c0eb6412de6ce5aff01e473173d"
+    },
+    {
+      "path": "kax-motion/typography/tools/roles.json",
+      "bytes": 4626,
+      "sha256": "a3eacd7e4359858235e6c341a46a844f8574d3b2fc2d6bb762fc9eb20c29fcf7"
+    },
+    {
+      "path": "kax-motion/typography/tools/roles_candidates.json",
+      "bytes": 5704,
+      "sha256": "db8b7fe0e79d927d1bec6b1074c5202f42578e339acee96c1e1681096f275d27"
+    },
+    {
+      "path": "kax-motion/typography/tools/specimen.py",
+      "bytes": 10974,
+      "sha256": "72c9675b7bf30bf52cbf241cbb27947fba0b91c709126e002f8e93d4413c57cd"
+    },
+    {
+      "path": "kax-motion/vendor/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    }
+  ]
+}

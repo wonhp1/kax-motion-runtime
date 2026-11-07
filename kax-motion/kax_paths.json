@@ -1,0 +1,7 @@
+{
+ "_doc": "도구 기본 경로 표(공개 값). 읽는 도구: critic/tools/pair_board.py·panel.py·exemplar_board.py·measure_motion.py, texture/measure_texture.py, typography/tools/specimen.py, components/tools/stage.py. 차례: 도구 인자 → 이 표. base cwd = 도구를 돌린 폴더(영상 작업 폴더 뿌리) 기준. refs = get_critic_refs로 받은 기준 그림 폴더(그림 <id>.webp·.png와 anchors.json), exemplars = 채점 예시 판 그림 폴더(<id>.png), exemplars_spec = 채점 예시 표.",
+ "base": "cwd",
+ "refs": "review/refs",
+ "exemplars": "review/refs/exemplars",
+ "exemplars_spec": "review/refs/exemplars/exemplars.json"
+}

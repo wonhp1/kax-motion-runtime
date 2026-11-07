@@ -1,0 +1,90 @@
+{
+ "Inter400": [
+  "fonts/Inter-var.ttf",
+  {
+   "wght": 400,
+   "opsz": 14
+  }
+ ],
+ "Inter700": [
+  "fonts/Inter-var.ttf",
+  {
+   "wght": 700,
+   "opsz": 32
+  }
+ ],
+ "Archivo800": [
+  "fonts/Archivo[wdth,wght].ttf",
+  {
+   "wght": 800,
+   "wdth": 100
+  }
+ ],
+ "Unbounded700": [
+  "fonts/Unbounded[wght].ttf",
+  {
+   "wght": 700
+  }
+ ],
+ "BigShoulders800": [
+  "fonts/BigShoulders[opsz,wght].ttf",
+  {
+   "wght": 800,
+   "opsz": 72
+  }
+ ],
+ "SpaceGrotesk500": [
+  "fonts/SpaceGrotesk[wght].ttf",
+  {
+   "wght": 500
+  }
+ ],
+ "InstrumentSerif": [
+  "fonts/InstrumentSerif-Regular.ttf",
+  {}
+ ],
+ "Pretendard400": [
+  "fonts/PretendardVariable.ttf",
+  {
+   "wght": 400
+  }
+ ],
+ "Pretendard700": [
+  "fonts/PretendardVariable.ttf",
+  {
+   "wght": 700
+  }
+ ],
+ "Pretendard900": [
+  "fonts/PretendardVariable.ttf",
+  {
+   "wght": 900
+  }
+ ],
+ "NotoSansKR500": [
+  "fonts/NotoSansKR[wght].ttf",
+  {
+   "wght": 500
+  }
+ ],
+ "BlackHanSans": [
+  "fonts/BlackHanSans-Regular.ttf",
+  {}
+ ],
+ "DoHyeon": [
+  "fonts/DoHyeon-Regular.ttf",
+  {}
+ ],
+ "Hahmlet600": [
+  "fonts/Hahmlet[wght].ttf",
+  {
+   "wght": 600
+  }
+ ],
+ "NotoSerifKR600": [
+  "fonts/NotoSerifKR[wght].ttf",
+  {
+   "wght": 600
+  }
+ ]
+}

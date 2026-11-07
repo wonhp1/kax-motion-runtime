@@ -1,0 +1,246 @@
+{
+ "_doc": "kax-motion v0.3 한글 타이포 짝 표. measured 는 typography/tools/measure.py 가 서체 윤곽을 재서 채운다(손으로 고치지 말 것). 기준: Pretendard 안에서 설계된 한글:라틴 대문자 높이비(1.228)와 중심 정렬. display_ratio 는 견본 판을 보고 고른 큰 제목용 비.",
+ "fonts": {
+  "inter": {
+   "path": "fonts/Inter-var.ttf",
+   "wght_range": [
+    100,
+    900
+   ],
+   "note": "OFL(fonts/OFL_inter.txt)"
+  },
+  "archivo": {
+   "path": "fonts/Archivo[wdth,wght].ttf",
+   "wght_range": [
+    100,
+    900
+   ],
+   "wdth_range": [
+    62,
+    125
+   ]
+  },
+  "unbounded": {
+   "path": "fonts/Unbounded[wght].ttf",
+   "wght_range": [
+    200,
+    900
+   ]
+  },
+  "bigshoulders": {
+   "path": "fonts/BigShoulders[opsz,wght].ttf",
+   "wght_range": [
+    100,
+    900
+   ]
+  },
+  "instrument": {
+   "path": "fonts/InstrumentSerif-Regular.ttf"
+  },
+  "instrument_i": {
+   "path": "fonts/InstrumentSerif-Italic.ttf",
+   "style": "italic"
+  },
+  "pretendard": {
+   "path": "fonts/PretendardVariable.ttf",
+   "wght_range": [
+    45,
+    930
+   ]
+  },
+  "blackhansans": {
+   "path": "fonts/BlackHanSans-Regular.ttf"
+  },
+  "notoserifkr": {
+   "path": "fonts/NotoSerifKR[wght].ttf",
+   "wght_range": [
+    200,
+    900
+   ]
+  },
+  "hahmlet": {
+   "path": "fonts/Hahmlet[wght].ttf",
+   "wght_range": [
+    100,
+    900
+   ]
+  }
+ },
+ "roles": {
+  "ui_body": {
+   "use": "UI 화면 본문·설명·라벨(16~32px @1080p)",
+   "latin": {
+    "font": "inter",
+    "wght": 400
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 400
+   },
+   "mode": "x",
+   "tracking_pct": {
+    "latin": 0,
+    "ko": -0.5
+   },
+   "line_gap": 0.62
+  },
+  "ui_title": {
+   "use": "UI 화면 제목·카드 제목(48~96px)",
+   "latin": {
+    "font": "inter",
+    "wght": 700
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 700
+   },
+   "tracking_pct": {
+    "latin": -2.5,
+    "ko": -2.5
+   },
+   "line_gap": 0.3,
+   "min_size_ratio_to_body": 2.2
+  },
+  "kinetic_heavy": {
+   "use": "키네틱 타이틀 기본(100~240px) — 라틴 Archivo Black 결",
+   "latin": {
+    "font": "archivo",
+    "wght": 850,
+    "axes": {
+     "wdth": 100
+    }
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 850
+   },
+   "display_ratio": 1.19,
+   "tracking_pct": {
+    "latin": -3,
+    "ko": -4
+   },
+   "line_gap": 0.14,
+   "min_size_ratio_to_body": 3.5
+  },
+  "kinetic_wide": {
+   "use": "넓은 라틴 Unbounded 와 섞는 키네틱(로고·끝맺음)",
+   "latin": {
+    "font": "unbounded",
+    "wght": 800
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 900
+   },
+   "display_ratio": 1.19,
+   "tracking_pct": {
+    "latin": -2,
+    "ko": -3
+   },
+   "line_gap": 0.14,
+   "min_size_ratio_to_body": 3.5
+  },
+  "kinetic_condensed": {
+   "use": "압축 포스터형(한글이 주인공일 때만, 라틴은 Archivo 좁힘)",
+   "latin": {
+    "font": "archivo",
+    "wght": 900,
+    "axes": {
+     "wdth": 75
+    }
+   },
+   "ko": {
+    "font": "blackhansans"
+   },
+   "display_ratio": 1.19,
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -2
+   },
+   "line_gap": 0.14,
+   "min_size_ratio_to_body": 3.5
+  },
+  "display_serif": {
+   "use": "세리프 강조·인용·큰 한 줄(가벼운 세리프로 바꿔 강조)",
+   "latin": {
+    "font": "instrument"
+   },
+   "ko": {
+    "font": "notoserifkr",
+    "wght": 500
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -3
+   },
+   "line_gap": 0.25
+  },
+  "serif_bold": {
+   "use": "굵은 산세리프 제목 안 한 단어를 같은 무게 세리프로(무게 맞춤 강조)",
+   "latin": {
+    "font": "instrument_i"
+   },
+   "ko": {
+    "font": "hahmlet",
+    "wght": 600
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -3
+   },
+   "line_gap": 0.25
+  },
+  "numeric": {
+   "use": "날짜·시각·통계 줄(표 숫자 tnum)",
+   "latin": {
+    "font": "inter",
+    "wght": 600
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 600
+   },
+   "digit": {
+    "font": "inter",
+    "wght": 600,
+    "features": [
+     "tnum"
+    ]
+   },
+   "tracking_pct": {
+    "latin": -1,
+    "ko": -1.5,
+    "digit": -1
+   },
+   "line_gap": 0.3
+  },
+  "numeric_hero": {
+   "use": "숫자 하나가 주인공(카운트업·큰 통계), 단위는 작게",
+   "latin": {
+    "font": "bigshoulders",
+    "wght": 800,
+    "axes": {
+     "opsz": 72
+    }
+   },
+   "ko": {
+    "font": "pretendard",
+    "wght": 800
+   },
+   "digit": {
+    "font": "bigshoulders",
+    "wght": 800,
+    "axes": {
+     "opsz": 72
+    }
+   },
+   "tracking_pct": {
+    "latin": 0,
+    "ko": -2.5,
+    "digit": -1
+   },
+   "line_gap": 0.2,
+   "ko_unit_scale": 0.5
+  }
+ }
+}

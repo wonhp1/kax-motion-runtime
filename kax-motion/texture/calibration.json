@@ -1,0 +1,109 @@
+{
+ "made": "2026-10-27, 결 견본 렌더(정지 6프레임씩 + 프레임마다 다른 그림 1프레임씩), 1920x1080 30fps",
+ "how": "진폭 amp(밝기 표준편차, 0~255)=3, grid는 line=20(cell 48, 1px)으로 그려 measure_texture.py로 잼. k = 측정값 / amp. texture.js CAL = crf16 밝은·어두운 평균",
+ "amp3": {
+  "grain": {
+   "lossless": {
+    "tex": 2.61,
+    "tex360": 1.23
+   },
+   "crf16": {
+    "tex": 2.695,
+    "tex360": 1.254,
+    "dark_tex": 2.651,
+    "dark_tex360": 1.23
+   },
+   "crf18_worst": {
+    "tex": 2.24,
+    "tex360": 1.17
+   }
+  },
+  "paper(low=0)": {
+   "lossless": {
+    "tex": 2.434,
+    "tex360": 1.049
+   },
+   "crf16": {
+    "tex": 2.46,
+    "tex360": 1.049,
+    "dark_tex": 2.503,
+    "dark_tex360": 1.053
+   },
+   "crf18_worst": {
+    "tex": 2.041,
+    "tex360": 0.981
+   }
+  },
+  "cloth(low=0)": {
+   "lossless": {
+    "tex": 2.524,
+    "tex360": 0.565
+   },
+   "crf16": {
+    "tex": 2.624,
+    "tex360": 0.576,
+    "dark_tex": 2.562,
+    "dark_tex360": 0.555
+   },
+   "crf18_worst": {
+    "tex": 2.336,
+    "tex360": 0.57
+   }
+  },
+  "grid line20 cell48": {
+   "lossless": {
+    "tex": 2.233,
+    "tex360": 1.225
+   },
+   "crf16": {
+    "tex": 2.224,
+    "tex360": 1.218,
+    "peak": 8.67
+   },
+   "crf18_worst": {
+    "tex": 2.071,
+    "tex360": 1.168
+   }
+  },
+  "hatch line20 cell96 hatch32": {
+   "crf16": {
+    "tex": 3.251,
+    "tex360": 1.568,
+    "peak": 11.45
+   }
+  },
+  "glow span12": {
+   "crf16": {
+    "tex": 0.238,
+    "span": 10.19
+   }
+  }
+ },
+ "k_per_amp_crf16": {
+  "grain": [
+   0.89,
+   0.415
+  ],
+  "paper": [
+   0.83,
+   0.35
+  ],
+  "cloth": [
+   0.865,
+   0.19
+  ],
+  "grid(per line)": [
+   0.111,
+   0.06
+  ]
+ },
+ "note_crf18_worst": "crf18_worst = 매 프레임 다른 그림을 crf18로 — 가장 나쁜 경우. 정지한 결(실제 쓰임)은 crf18에서 crf16 대비 -2~-10%",
+ "temporal_flick": {
+  "fine_static_low_flow(종이+빛, flow 6)": 0.03,
+  "boil 4~6초(세기 유지 섞기)": 0.047,
+  "drift 2,1px/s 소수 자리": 0.154,
+  "drift 2,1px/s 정수 px": "0.08 평균, 0.69 튐 9회/3초 (금지)",
+  "매 프레임 그레인 4장 돌림(예전 결 방식)": 0.79,
+  "drift 소수 자리 메모": "이동 중 세기가 쌍선형 보간으로 최대 -15% 출렁임(2.36→2.00)"
+ }
+}
